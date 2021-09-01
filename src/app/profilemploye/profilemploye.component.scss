@@ -1,0 +1,112 @@
+$b1: rgb(27, 158, 245);
+$fontbouton: 'Times New Roman', Times, serif;
+$sizebouton: 18px;
+$hauteurbout: 45px;
+$largeurin: 200px;
+section{
+    width: 77%;
+    display: inline-block;
+    float: right;
+
+    .cl1{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .cla_em{
+        background-color: white;
+        margin: 30px 30px 0 30px;
+        padding: 0 20px;
+        border-radius: 10px;
+        a{
+            color: black;
+            float: right;
+            margin-top: 15px;
+        }
+        .nom_em{
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px;
+            span{
+                font-weight: bold;
+                font-family: $fontbouton;
+                color: $b1;
+            }
+        }
+        .image3{
+            width: 200px;
+            margin-top: -150px;
+        }
+        .txtr{
+            padding: 30px 30px 30px 30px;
+
+        }
+        .coltext{
+            display: inline-block;
+            font-family: $fontbouton;
+            font-size: $sizebouton;
+            p{
+                padding-top: 5px;
+            }
+            button{
+                
+            }
+        }
+        
+    }
+    .cla_em2{
+        display: inline-block;
+        background-color: white;
+        width: 45%;
+        margin: 30px 0;
+        padding: 0 20px;
+        border-radius: 10px;
+        font-family: $fontbouton;
+        font-size: $sizebouton;
+        padding: 0 30px;
+        h2{
+            font-family: $fontbouton;
+            font-weight: bold;
+            font-size: 25px;
+            padding: 10px 0;
+        }
+        a{
+            float: right;
+            color: black;
+            margin-top: -240px;
+        }
+    }
+   
+    .v2{
+        margin-left: 30px;
+    }
+    .v1{
+        margin-left: 30px;
+    }
+
+    .modal{
+        .modal-title{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: $fontbouton;
+        }
+        .div-modal{
+            display: inline-block;
+            font-family: $fontbouton;
+            margin-top: 5px;
+            padding-right: 10px;
+        }
+        .ajt{
+            width: 100px;
+            margin: 10px 160px;
+            border-radius: 25px;
+            background-color: $b1;
+        }
+        
+    }
+    .dfin{
+        margin: 10px auto;
+    }
+}

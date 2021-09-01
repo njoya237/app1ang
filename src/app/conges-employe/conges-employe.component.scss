@@ -1,0 +1,43 @@
+$b1: rgb(27, 158, 245);
+$fontbouton: 'Times New Roman', Times, serif;
+$sizebouton: 18px;
+$hauteurbout: 45px;
+$largeurin: 150px;
+section{
+    width: 77%;
+    display: inline-block;
+    float: right;
+
+    .cla_em{
+        background-color: white;
+        margin: 30px 30px 0 30px;
+        padding: 0 20px;
+        border-radius: 10px;
+        .nom_em{
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px;
+            span{
+                font-weight: bold;
+                font-family: $fontbouton;
+                color: $b1;
+            }
+        }
+    }
+
+    table{
+        margin: 30px 30px 0 30px;
+        font-family: $fontbouton;
+        font-size: 18px;
+        width: 94%;
+        
+        tr{
+            height: 50px;
+            color: rgb(49, 48, 48);
+        }
+        th>img{
+            width: 80px;
+        }
+    }
+    
+}

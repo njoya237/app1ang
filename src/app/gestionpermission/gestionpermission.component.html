@@ -1,0 +1,64 @@
+<app-nav-admin></app-nav-admin>
+<section>
+    <div class="cla_em">
+        <p class="nom_em"><span>PSE</span>TIME / Gestion des Permissions</p>
+    </div>
+
+    <form class="row row-cols-lg-auto">
+        <div class="col-12">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Nom">
+          </div>
+        </div>
+          <div class="col-12">
+            <div class="input-group">
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Statut">
+                <datalist id="datalistOptions">
+                  <option value="En attente">
+                  <option value="Accepter">
+                  <option value="Rejeter">
+                </datalist>
+            </div>
+          </div>
+      
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Rechercher</button>
+        </div>
+      </form>
+      <table class="table table-hover c1">
+        <thead class="table-info">
+            <tr>
+              <th scope="col">Employé</th>
+              <th scope="col">Statut</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="table-light">
+            <tr>
+              <th scope="row">
+                  <img src="../touslesemployes/njoya.jpg" alt="">
+                  <p>Nom et Prenom</p>
+              </th>
+              <td>En attente</td>
+              <td>Supprimer</td>
+            </tr>
+            <!-- <tr> -->
+                <tr>
+                    <th scope="row">
+                        <img src="../touslesemployes/njoya.jpg" alt="">
+                        <p>Nom et Prenom</p>
+                    </th>
+                    <td>Accepter</td>
+                    <td>Supprimer</td>
+                </tr>
+                  <tr>
+                    <th scope="row">
+                        <img src="../touslesemployes/njoya.jpg" alt="">
+                        <p>Nom et Prenom</p>
+                    </th>
+                    <td>Rejeter</td>
+                    <td>Supprimer</td>
+                  </tr>
+          </tbody>
+    </table>
+</section>
